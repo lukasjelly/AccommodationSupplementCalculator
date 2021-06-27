@@ -32,6 +32,7 @@ char situation[5][100] = {
 int main() {
 	char str[80];
 	strcpy(str, "n");
+	printf("hi\n");
 	while (strcmp(str, "y") != 0) {
 		int area = func_area_search();
 		int income = func_income();
